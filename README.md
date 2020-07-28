@@ -16,7 +16,7 @@ The project is to be responsive.
 
 ### Getting Started 
 
-##### Prerequisite
+#### Prerequisite
 
 1. You need to have git installed on your system 
 
@@ -24,13 +24,15 @@ The project is to be responsive.
 
 3. Do some research on bootstrap. 
 
-##### Installation 
+#### Installation 
 
 The most official build is available for download on the Git website. 
 
 Just go to https://git-scm.com/download/win and the download will start automatically. 
 
-##### Contributing To contribute to the project, 
+#### Contributing 
+
+To contribute to the project, 
 
 1. Fork the repo by clicking on the fork sign on the top of this page.
 
@@ -56,7 +58,7 @@ More info on how to contribute can be found [here](https://www.dataschool.io/how
 
 Further enquiry can be made on the WhatsApp group or slack workspace 
 
-##### Description
+### Description
 
 The project is made up of mostly images which can be found in the images folder of this repo.
 
