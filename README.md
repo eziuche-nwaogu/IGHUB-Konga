@@ -2,7 +2,7 @@
 
 ### Group 1 Section
 
-<img src="C:\Users\Prechy\Pictures\Screenshots\Screenshot (38).png" alt="Screenshot (38)" style="zoom:100%;" />
+<img src="Screenshot (38).png" alt="task" style="zoom:100%;" />
 
 ### About Project
 
