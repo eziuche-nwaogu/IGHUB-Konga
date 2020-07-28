@@ -42,9 +42,12 @@ More info on how to contribute can be found [here](https://www.dataschool.io/how
 
 Further enquiry can be made on the WhatsApp group or slack workspace
 
-##### Workflow
+##### Description
 
 The project is made up of mostly images which can be found in the images folder of this repo.
 
 Images with name 'up' refer to the first set of logos, 'down' refers to the last 6 six logos, 'konga' is the main  logo found at the left hand side of the navbar, 'carousel' refers to the sliding images while 'ads' refers to the images beside the carousel.
-
+the body has a background color of #f6f6f6
+The top is a container of 5 logos with background color same with that of the body 
+The first section of the navbar has a background color of #ed017f and also contains the konga logo
+the 2nd section of the navbar contains links to various sections of the pages and has background color #94004f
