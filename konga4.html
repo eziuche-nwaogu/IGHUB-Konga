@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <title>Konga</title>
+    <style>
+        *{
+    padding: 0;
+    margin: 0;
+}
+
+.carousel-container-length {
+    background-color: #5c5a5a09;
+    padding-top: 0;
+    margin-top: 10%;
+    width: 97%;
+}
+
+.ads-wrapper {
+    width: 100%;
+    height: auto;
+}
+
+.ads-container {
+    width: 50%;
+}
+
+.ads-container:nth-child(odd) {
+    padding-right: .5em;
+    padding-top: 1em;
+}
+
+.ads-container:nth-child(even) {
+    padding-left: .5em;
+    padding-top: 1em
+}
+
+.ads-container img {
+    width: 100%;
+    background-size: cover;
+    height: 100%;
+}
+
+.bd-radius {
+    border: 1px solid transparent;
+    border-radius: 7px;
+}
+
+@media (min-width: 992px) {
+    .carousel-container {
+        width: 70%;
+    }
+    
+    .ads-wrapper {
+        width: 30%;
+        height: auto;
+        margin-left: 1em;
+    }
+    .ads-container {
+        width: 50%;
+        height: 29vh;
+    }
+
+    .ads-container:nth-child(odd) {
+        padding-right: .5em;
+        padding-top: 0;
+    }
+    
+    .ads-container:nth-child(even) {
+        padding-left: .5em;
+        padding-top: 0;
+    }
+
+    .ads-container:nth-child(3) {
+        padding-top: 1em;
+    }
+    
+    .ads-container:nth-child(4) {
+        padding-top: 1em;
+    }
+    
+    .img-styling {
+        height: 57.5vh;
+    }
+}
+    </style>
+</head>
+
+<body>
+    <div class="container-fluid d-lg-flex carousel-container-length">
+        
+        <div id="carouselimages" class="carousel slide carousel-container" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="carouselimages" data-slide-to="0" class="active"></li>
+                <li data-target="carouselimages" data-slide-to="1"></li>
+                <li data-target="carouselimages" data-slide-to="2"></li>
+                <li data-target="carouselimages" data-slide-to="3"></li>
+                <li data-target="carouselimages" data-slide-to="4"></li>
+                <li data-target="carouselimages" data-slide-to="5"></li>
+                <li data-target="carouselimages" data-slide-to="6"></li>
+                <li data-target="carouselimages" data-slide-to="7"></li>
+            </ol>
+            <div class="carousel-inner bd-radius">
+                <div class="carousel-item active">
+                    <a href="#"  target="_blank" rel="noopener noreferrer"><img src="images/carousel1.jpg" class="d-block w-100 img-styling" alt="Eid Mubabrak Sales" title="Eid Mubabrak Sales"></a>
+                       
+                            
+                </div>
+                <div class="carousel-item">
+                    <a href="#" target="_blank" rel="noopener noreferrer"><img src="images/carousel2.jpg" class="d-block w-100 img-styling" alt="Nivea Products" title="Nivea Products"></a>
+                        
+                            
+                </div>
+                <div class="carousel-item">
+                    <a href="#" target="_blank" rel="noopener noreferrer"><img src="images/carousel3.jpg" class="d-block w-100 img-styling" alt="Durex" title="Durex"></a>
+                        
+                            
+                </div>
+                <div class="carousel-item">
+                    <a href="#" target="_blank" rel="noopener noreferrer"><img src="images/carousel4.jpg" class="d-block w-100 img-styling" alt="Eva Water" title="Eva Water"></a>
+                        
+                            
+                </div>
+                <div class="carousel-item"><a href="#" target="_blank" rel="noopener noreferrer"><img src="images/carousel5.jpg" class="d-block w-100 img-styling" alt="Samsung Products" title="Samsung Products"></a>
+                    
+                            
+                </div>
+                <div class="carousel-item">
+                    <a href="#" target="_blank" rel="noopener noreferrer"><img src="images/carousel6.jpg" class="d-block w-100 img-styling" alt="Hp Corei5" title="Corei5"></a>
+                        
+                            
+                </div>
+                <div class="carousel-item"><a href="#" target="_blank" rel="noopener noreferrer"><img src="images/carousel7.jpg" class="d-block w-100 img-styling" alt="Intel Corei7" title="Intel Corei7"></a>
+                    
+                            
+                            
+                </div>
+                <div class="carousel-item"><a href="#" target="_blank" rel="noopener noreferrer"><img src="images/carousel8.jpg" class="d-block w-100 img-styling" alt="Frutta Juice" title="Frutta Juice"></a>
+                    
+                        
+                            
+                </div>
+            </div>
+            <a href="#carouselimages" class="carousel-control-prev" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a href="#carouselimages" class="carousel-control-next" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+           
+        </div>
+
+        
+        <div class="d-lg-flex d-flex flex-wrap ads-wrapper">
+            <div class="ads-container">
+                <a target="_self" href="#"><img src="images/ads1.jpg" class="bd-radius" alt="Download the Mobile App" title="Dowmload the Mobile App"></a>
+                        
+            </div>
+            <div class="ads-container">
+                <a href="#" target="_blank" rel="noopener noreferrer"><img src="images/ads2.jpg" class="bd-radius" alt="Return Policy" title="Return Policy"></a>
+                        
+            </div>
+            <div class="ads-container"> <a href="#" target="_self"><img src="images/ads3.gif" class="bd-radius" alt="Official Stores" title="Our Stores"></a>
+                
+                        
+            </div>
+            <div class="ads-container">
+                <a href="#"  target="_blank" rel="noopener noreferrer"><img src="images/ads4.gif" class="bd-radius" alt="KongaPay" title="KongaPay"></a>
+                   
+                        
+            </div>
+        </div>
+    </div>
+
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
